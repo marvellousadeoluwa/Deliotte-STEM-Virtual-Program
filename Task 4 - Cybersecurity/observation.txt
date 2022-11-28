@@ -1,0 +1,11 @@
+Answers
+1. No direct access to the dashboarad is possible from the internet, because the scope of the developemrnt only allows for Daikibo's intranet.
+Only VPN tunnelling is possible.
+
+2. Suspicious Checks
+Ip: 192.168.0.101
+authorizedUserId: "mdB7yD2dp1BFZPontHBQ1Z"
+- made too many api calls on 25/06
+- same on 26/06 without authorization ERROR 401, later logon at T16:04 to continue wth long api call
+# probably automated, since after session expired, requestes were still being made.
+# suspicious, its checks were very precise (one-per-hour) checks
